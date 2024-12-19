@@ -3,8 +3,10 @@ import './index.css'
 
 function HomeworkOne() {
   return (
-    <div>
-      
+    <div className='container'>
+      <div className="meat_container">
+        <h1>Bizda turli hil taomlar mavjud!</h1>
+      </div>
     </div>
   )
 }

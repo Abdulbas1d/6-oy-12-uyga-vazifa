@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+}
+
+.meat_container {
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    h1 {
+        text-align: center;
+        letter-spacing: 1px;
+        font-size: 40px;
+        color: rgb(59, 59, 127);
+    }
+
+    h1:hover {
+        background: -webkit-linear-gradient(green, yellow, red, pink);
+        color: black;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border: 2px solid -webkit-linear-gradient(green, yellow, red, pink);
+        cursor: pointer;
+    }
+}
